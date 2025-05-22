@@ -27,10 +27,10 @@ steps:
 - task: SonarCloudPrepare@3
   inputs:
     SonarQube: 'sc-sonarcloud'
-    organization: 'a24-infonuagique-2398325'
+    organization: 'hinault'
     scannerMode: 'dotnet'
-    projectKey: 'A24-Infonuagique-2398325_Market-TP6'
-    projectName: 'Market-TP6'
+    projectKey: 'hinault_H25-Sec-TP6-EH'
+    projectName: 'H25-Sec-TP6-EH'
 
 - task: VSBuild@1
   inputs:
